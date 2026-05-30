@@ -9,7 +9,6 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Login attempt:', { email, password, role });
     // TODO: Implement actual login logic with backend
     if (role === 'customer') {
       navigate('/customer/search');

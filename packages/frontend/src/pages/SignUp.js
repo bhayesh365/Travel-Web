@@ -10,7 +10,6 @@ function SignUp() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Signup attempt:', { name, email, password, role });
     // TODO: Implement actual signup logic with backend
     navigate('/');
   };
