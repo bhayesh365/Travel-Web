@@ -1,0 +1,25 @@
+{
+  "name": "travel-web",
+  "version": "0.1.0",
+  "description": "Two-sided travel booking and inquiry platform",
+  "private": true,
+  "workspaces": [
+    "packages/backend",
+    "packages/frontend"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "backend": "npm run dev -w packages/backend",
+    "frontend": "npm run dev -w packages/frontend"
+  },
+  "keywords": [
+    "travel",
+    "booking",
+    "agency",
+    "inquiry"
+  ],
+  "author": "OpenCode",
+  "license": "MIT"
+}

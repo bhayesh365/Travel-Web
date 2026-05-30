@@ -10,9 +10,26 @@ When families or groups travel to another city, they often cannot quickly find:
 
 Travel-Web solves this by letting customers search local agency vehicles, raise inquiries, chat with agencies, and complete bookings online.
 
+## Quick Start
+
+To get the project running immediately:
+
+```bash
+# Install all dependencies
+npm install
+
+# Terminal 1: Run backend server (port 5000)
+npm run backend
+
+# Terminal 2: Run frontend app (port 3000)
+npm run frontend
+```
+
+See [SETUP.md](./SETUP.md) for detailed setup instructions.
+
 ## User Roles
-- **Customer**
-- **Travel Agency**
+- **Customer** - Search vehicles, raise inquiries, make bookings
+- **Travel Agency** - Manage vehicles, respond to inquiries, confirm bookings
 
 Both roles require login/authentication.
 
